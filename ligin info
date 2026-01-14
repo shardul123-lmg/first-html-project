@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D.S.A Public School</title>
+    
+   <link rel="logo icon" href="htmllogo.png" type="image/x-icon">
+   </head>
+     <body>
+    <h1>D.S.A Public School</h1>
+    <fieldset>
+        <legend>Login</legend>
+        <form action="login.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required autofocus placeholder="kevin123">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="********">
+            <br><br>
+            <button type="submit">Login</button>
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+    </fieldset>
+    &lt;&lt;&lt; &copy;<a href="school.html">Back To Home</a>&gt;&gt;&gt;
+
+
+</body>
+
+
+
+
+
+
