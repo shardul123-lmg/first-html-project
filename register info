@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D.S.A Public School - Register</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon logo" href="htmllogo.png" type="image/x-icon">
+</head>
+<body>
+    <h1>D.S.A Public School</h1>
+    <fieldset>
+        <legend>Register</legend>
+        <form action="register.php" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required autofocus placeholder="xyz123">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="********">
+            <br>
+            <label for="confirm_password">Confirm Password:</label>
+            <input type="password" id="confirm_password" name="confirm_password" required placeholder="********">   
+            <br>
+            <label for="decade">favourite decade</label>
+            <input type="number" id="decade" name="decade" min="2005" max="2024" required placeholder="Enter a year between 2005 and 2024" step="1" value="2023">
+            <br><br> 
+            <button type="submit">Register</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </fieldset>
+    &lt;&lt;&lt; &copy;<a href="school.html">Back To Home</a>&gt;&gt;&gt;
+</body>
+
+</html>
